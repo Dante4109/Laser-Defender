@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+
+
     //Configuration parameters 
     [Header("Player")]
     [SerializeField] int health = 200;

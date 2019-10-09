@@ -124,9 +124,9 @@ MonoBehaviour:
   deathVFX: {fileID: 1942146116649716, guid: adb4c937422c085418b3374612fa68f7, type: 2}
   durationOfExplosion: 1
   deathSound: {fileID: 8300000, guid: 3b37e011faae64c438272fe01f8e4987, type: 3}
-  deathSoundVolume: 0.75
+  deathSoundVolume: 0.5
   shootSound: {fileID: 8300000, guid: 85954a808dfb61c438905747065c4999, type: 3}
-  shootSoundVolume: 0.25
+  shootSoundVolume: 0.15
 --- !u!212 &212433631542423008
 SpriteRenderer:
   m_ObjectHideFlags: 1
