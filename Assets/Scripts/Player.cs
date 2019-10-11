@@ -99,6 +99,7 @@ public class Player : MonoBehaviour {
     {
         health -= damageDealer.GetDamage();
         damageDealer.Hit();
+        FindObjectOfType<GameSession>().RemoveFromHealth(damageDealer.GetDamage());
         if (health <= 0)
         {
             Die();
@@ -112,5 +113,10 @@ public class Player : MonoBehaviour {
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(explosion, durationOfExplosion);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+    }
+
+    private int GetHealth()
+    {
+        return health;
     }
 }

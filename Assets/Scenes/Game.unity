@@ -246,22 +246,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4901302546581452, guid: d4c9bd9a90065d54bbec087f2270532f,
     type: 2}
   m_PrefabInternal: {fileID: 972944220}
---- !u!1 &305493405 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1592561315155288, guid: ce2d8fa2099476b45800eaa2eae32077,
-    type: 2}
-  m_PrefabInternal: {fileID: 2026171656}
---- !u!114 &305493409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 305493405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85b74936e2861be4093ff2eb744a93e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &673903650
 Prefab:
   m_ObjectHideFlags: 0
@@ -754,21 +738,6 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866581182913452, guid: ce2d8fa2099476b45800eaa2eae32077,
-        type: 2}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866581182913452, guid: ce2d8fa2099476b45800eaa2eae32077,
-        type: 2}
-      propertyPath: m_FontData.m_AlignByGeometry
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866581182913452, guid: ce2d8fa2099476b45800eaa2eae32077,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce2d8fa2099476b45800eaa2eae32077, type: 2}

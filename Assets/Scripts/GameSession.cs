@@ -5,6 +5,9 @@ using UnityEngine;
 public class GameSession : MonoBehaviour {
 
     int score = 0;
+    int displayHealth = 200;
+
+
     private void Awake()
     {
         SetUpSingleton();
@@ -31,6 +34,16 @@ public class GameSession : MonoBehaviour {
     public void AddToScore(int scoreValue)
     {
         score += scoreValue;
+    }
+
+    public int GetHealth()
+    {
+        return displayHealth;
+    }
+
+    public void RemoveFromHealth(int healthValue)
+    {
+        displayHealth -= healthValue;
     }
 
     public void ResetGame()
